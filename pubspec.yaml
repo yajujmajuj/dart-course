@@ -1,0 +1,49 @@
+name: healthandwellness
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.1.3
+  syncfusion_flutter_charts: ^20.4.44
+  flutter_tflite: ^1.0.1
+  camera: ^0.10.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  video_player: ^2.5.3
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/videos/
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+    - assets/icons/guide/
+    - assets/icons/navbar/
+    - assets/icons/appbar/
+    - assets/icons/exercise/
+    - assets/images/onboarding/
+    - assets/weights/posenet_mv1_075_float_from_checkpoints.tflite
+
+  fonts:
+     - family: Montserrat
+       fonts:
+         - asset: assets/fonts/Montserrat-Regular.ttf
+         - asset: assets/fonts/Montserrat-Bold.ttf
